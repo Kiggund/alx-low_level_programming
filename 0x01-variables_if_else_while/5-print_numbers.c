@@ -5,11 +5,11 @@
  * Return: Always 0
  */
 int main(void)
-{
-	int num;
 
-	for (num = o; num < 10; num++)
-		printf("%d", num;)
+	int num
+
+	for (num = 0; num < 10; num++)
+	printf("%dd", num);
 
 	printf("\n");
 
