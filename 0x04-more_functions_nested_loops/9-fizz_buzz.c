@@ -2,7 +2,7 @@
 
 /**
  * main - print fizzbuzz
- * Return: Always 0
+ * Return: Always o
  */
 int main(void)
 {
@@ -19,6 +19,6 @@ int main(void)
 		if (n % 3 != 0 && n % 5 != 0)
 			printf("%d", n);
 	}
-	prinf("\n");
+	printf("\n");
 	return (0);
 }
