@@ -2,7 +2,7 @@
 
 /**
  * _atoi - converts a string into an integer
- * @s: thestring
+ * @s: the string
  * Return: value
  */
 int _atoi(char *s)
@@ -16,6 +16,7 @@ int _atoi(char *s)
 			sign *= -1;
 		if (*s == '+')
 			sign *= +1;
+		s++;
 	}
 	while ('0' <= *s && *s <= '9' && *s != '\0')
 	{
